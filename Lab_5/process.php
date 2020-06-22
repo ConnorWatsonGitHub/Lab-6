@@ -66,7 +66,7 @@ if ($ok === true) {
         $statement->execute(); // fill in the correct method
 
         // show message
-        echo "<p> Song added! Thanks for sharing! </p>";
+        echo "<p> Added! Thanks for sharing! </p>";
 
         // This line closes or ends the connection to the db, this will allow other users to access the db.
        $statement ->closeCursor(); // fill in the correct method
